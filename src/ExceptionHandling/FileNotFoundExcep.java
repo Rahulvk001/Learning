@@ -10,7 +10,7 @@ public class FileNotFoundExcep {
             while ((i=io.read())!=-1){
                 System.out.println((char)i);
             }
-        }catch (FileNotFoundException e){
+        }catch (FileNotFoundException e){             \\ For handling the exceptions
             System.out.println(e);
         }
     }
